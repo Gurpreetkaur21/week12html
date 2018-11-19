@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: black;
+    height: 2000px;
+}
+
+.menu
+{
+    background-color:darkgoldenrod;
+    text-align: center;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    z-index: 1;
+    opacity:0.4;
+}
+.big-box
+{
+    background-color: blue;
+    position: absolute;
+    height:450px;
+    width:400px;
+    margin-left: 300px;
+    margin-right: 600px;
+    margin-top: 150px;
+
+}
+.small-box 
+{
+    background-color: red;
+    height:200px;
+    
+    position: absolute;
+    width:200px;
+    padding: 25px;
+    margin-right: 100px;
+    left: 370px;
+    right:400px;
+    top:250px;
+
+   
+}
+.small-box a 
+{
+    display: block;
+    text-align:center;
+    margin-top: 20px;
+}
